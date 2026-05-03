@@ -20,7 +20,7 @@ Not rushing. Building it the right way.
 
 | Status | Certification / Course |
 |--------|------------------------|
-| 🔜 Exam by May 2026 | LPI Linux Essentials |
+| ✅ Completed | LPI Linux Essentials *(Apr 2026)* |
 | 📖 In progress | Ethical Hacking Courses — Udemy |
 | 🗓️ Planned | CompTIA Network+ |
 | 🗓️ Planned | CompTIA Security+ |
