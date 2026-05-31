@@ -14,7 +14,7 @@ Currently turning that curiosity into something structured — and public.
 | Project | What | Status |
 |---|---|---|
 | [`lpi-010-160-practice`](https://github.com/KalevIT/lpi-010-160-practice) | Browser-based exam simulator · 503 questions · 5 modes · fully offline | ✅ Live |
-| [`homelab-cybersecurity`](https://github.com/KalevIT/homelab-cybersecurity) | Raspberry Pi security lab — Vaultwarden, Docker, network monitoring | 🔧 In progress |
+| [`homelab-cybersecurity`](https://github.com/KalevIT/homelab-cybersecurity) | VMware Pro lab — pfSense, Kali, Metasploit, Wazuh SIEM, Active Directory attacks | 🔧 In progress |
 
 ---
 
@@ -40,15 +40,16 @@ Target path: `Google Cybersecurity Cert` → `CompTIA Security+` → `CySA+` →
 
 ---
 
-## 🧪 Home lab — Raspberry Pi
+## 🧪 Home Lab — VMware Workstation Pro
 
-My playground for learning by doing. Every project starts with: *"I need to understand how this actually works."*
+Full cybersecurity lab on dedicated hardware. Built from absolute zero.
 
-- 🔐 **Self-hosted Password Manager** — Vaultwarden (Docker)
-- 🐳 **Docker containers** — network monitoring stack
-- 💾 **NAS** — local file storage and backup
-- 📡 **Network monitoring** — traffic analysis, log collection
-- 🔍 **Splunk Free** — SIEM lab, log ingestion, alert rules
+- 🔥 **pfSense** — firewall, network segmentation, VMnet isolation
+- 🐉 **Kali Linux** — offensive tooling, Metasploit, enumeration
+- 🪟 **Windows Server 2025** — Active Directory, GPO, domain attacks
+- 📡 **Wazuh SIEM** — log collection, alert rules, detection
+- 🔵 **Blue Team** — detection, response, hardening
+- 🔴 **Red Team** — Active Directory attacks, lateral movement, CTF
 
 ---
 
