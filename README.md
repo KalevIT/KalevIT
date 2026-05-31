@@ -70,8 +70,8 @@ My playground for learning by doing. Every project starts with: *"I need to unde
 
 ## 📊 GitHub stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KalevIT&show_icons=true&theme=dark&hide_border=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KalevIT&layout=compact&theme=dark&hide_border=true)
+![Profile views](https://komarev.com/ghpvc/?username=KalevIT&color=red&style=flat)
+[![KalevIT's GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=KalevIT&theme=github-compact&hide_border=true)](https://github.com/KalevIT)
 
 ---
 
