@@ -12,7 +12,17 @@ with the mistakes left in.
 
 | Project | What it is |
 |---|---|
-| [`lpi-010-160-practice`](https://github.com/KalevIT/lpi-010-160-practice) | Browser-based exam simulator for LPI Linux Essentials. 503 questions, 5 modes, fully offline. Built after sitting the exam myself |
+| [`LPIEngineSim`](https://github.com/KalevIT/LPIEngineSim) | Offline-first, accessibility-focused practice exam engine for LPI certifications. One config file per exam, exam sampling weighted by the published objectives, three CI gates. Ships an engine and 40 original questions — deliberately not a question dump |
+
+Built for my own Linux Essentials exam, then rebuilt from scratch.
+
+The first version published ~500 questions derived from LPI's learning material under an
+MIT licence. That material is CC BY-NC-ND: the licence I had chosen granted rights I did
+not hold. Rather than quietly deleting the questions, the reasoning and the boundary the
+project now draws are written down — see [ADR-0004](https://github.com/KalevIT/LPIEngineSim/blob/main/docs/decisions/0004-content-licensing-boundary.md) and [`docs/QUESTION-SOURCING.md`](https://github.com/KalevIT/LPIEngineSim/blob/main/docs/QUESTION-SOURCING.md).
+
+Six architecture decision records document what was on the table, what was advised, what
+was decided and what it cost.
 
 ---
 
