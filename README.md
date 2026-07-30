@@ -2,9 +2,9 @@
 
 **IT Support Specialist → Security Operations (in progress)**
 
-Nearly 20 years of self-taught tinkering and 2+ years of professional IT support.
-Currently building the foundations for a move into security operations — in public,
-with the mistakes left in.
+I opened my first computer at six, along with plenty of other things that were not meant to be opened. Two decades followed of taking PCs, laptops and electronics apart to work out how they ran, putting them back together, repairing them, occasionally breaking them for good. I had a method — take it apart, watch what happens, put it back, understand it — but nothing written down and nobody teaching me.
+
+The last 2+ years in professional IT gave that method structure. I'm now moving toward security operations, doing it with what I didn't have at six: written procedure, documented decisions, and results verified before they are published.
 
 ---
 
@@ -14,60 +14,58 @@ with the mistakes left in.
 |---|---|
 | [`LPIEngineSim`](https://github.com/KalevIT/LPIEngineSim) | Offline-first, accessibility-focused practice exam engine for LPI certifications. One config file per exam, exam sampling weighted by the published objectives, three CI gates. Ships an engine and 40 original questions — deliberately not a question dump |
 
-Built for my own Linux Essentials exam, then rebuilt from scratch.
+I wanted a practice simulator for LPI Linux Essentials and found the available ones poor, so I built my own. In FLOSS certification study the tooling is often the weak part.
 
-The first version published ~500 questions derived from LPI's learning material under an
-MIT licence. That material is CC BY-NC-ND: the licence I had chosen granted rights I did
-not hold. Rather than quietly deleting the questions, the reasoning and the boundary the
-project now draws are written down — see [ADR-0004](https://github.com/KalevIT/LPIEngineSim/blob/main/docs/decisions/0004-content-licensing-boundary.md) and [`docs/QUESTION-SOURCING.md`](https://github.com/KalevIT/LPIEngineSim/blob/main/docs/QUESTION-SOURCING.md).
+I specified the product and the constraints; an AI assistant wrote the code. I tested it against those requirements, verified it did what I had asked for, and directed the corrections where it did not.
 
-Six architecture decision records document what was on the table, what was advised, what
-was decided and what it cost.
+It runs entirely offline: no server, no build step, no dependencies, and it works from a USB stick. Accessibility was a specification rather than a retrofit — screen readers, three colour-vision palettes, dyslexia-oriented type, hideable timer, keyboard-only navigation. Sampling is weighted by the published objectives and verified across 2,000 simulated runs.
+
+Six architecture decision records cover what was on the table, what was advised, what was decided and what each choice cost. The full history is in the repository.
 
 ---
 
 ## In progress
 
-**Home security lab** — a phase-based blue-team lab on VMware Workstation Pro.
-
-A previous attempt was built by following a video tutorial. It worked, and I could not
-explain a single decision in it — including an intentionally vulnerable machine sitting
-on a segment that could reach my host. I deleted all of it and started again, this time
-documenting every decision, every error and how each result was verified.
-
-Six phases, each with written exit criteria that have to be met before the next one
-opens:
-
-| Phase | Focus |
+|Project|What it is|
 |---|---|
-| 0 | Linux and command line foundations |
-| 1 | Networking fundamentals |
-| 2 | Network segmentation and firewalling |
-| 3 | Active Directory |
-| 4 | Log collection and SIEM |
-| 5 | Detection engineering |
+|[`Homelab`](https://github.com/KalevIT/Homelab)|A phase-based blue-team home lab on VMware Workstation Pro, documented as a build log rather than a tutorial collection|
 
-Currently in Phase 0. The repository goes public when there is verified work in it.
+A controlled environment to experiment in, learn ethically, and build skills that carry into the job. I build it hands-on, with an AI assistant as a tutor rather than a substitute — the whole point is being able to explain every decision afterwards.
+
+Four standing rules: nothing is documented before it works, every claim carries a source, evidence lives separately from narrative, and everything is sanitised before it is committed.
+
+Six phases, each with written exit criteria that have to be met before the next one opens:
+
+|Phase|Focus|Status|
+|---|---|---|
+|0|Linux and command line foundations|In progress|
+|1|Networking fundamentals + Windows client|Locked|
+|2|Network segmentation and firewalling|Locked|
+|3|Active Directory|Locked|
+|4|Log collection and SIEM|Locked|
+|5|Detection engineering|Locked|
+
+The build log is public from Phase 0, not from the point where it starts looking good. Everything that went wrong on the way is in the repository.
 
 ---
 
 ## Learning path
 
-| Status | Certification |
+|Status|Certification|
 |---|---|
-| Completed | LPI Linux Essentials 010-160 *(Apr 2026)* |
-| Completed | Cambridge English B2 First *(Dec 2025)* |
-| Next | CompTIA Security+ SY0-701 |
-| Later | CompTIA CySA+ |
+|Completed|LPI Linux Essentials 010-160 _(Apr 2026)_|
+|Completed|Cambridge English B2 First _(Dec 2025)_|
+|In progress|Google Cybersecurity Certificate — Coursera|
+|Next|CompTIA Security+ SY0-701|
+|Later|CompTIA CySA+|
 
 ---
 
 ## Tools I use professionally
 
-`Windows` · `PowerShell` · `ServiceNow` · `Git` · `Linux`
+`ServiceNow` · `Windows` · `Linux` · `Git` · `PowerShell (command-line use)`
 
-Everything else I am currently learning is in the lab repository, described as what it
-is — in progress.
+Everything else is in the lab repository, described as what it is — in progress.
 
 ---
 
